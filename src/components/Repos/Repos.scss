@@ -1,0 +1,30 @@
+.repos {
+  &__header {
+    text-align: left;
+    padding: 20px;
+    h2 {
+      color: #0366d6;
+      font-weight: normal;
+    }
+  }
+  &__button {
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(207, 207, 207);
+    }
+  }
+  &__list {
+    border-top: 1px solid rgb(212, 212, 212);
+  }
+  &__error {
+    color: red;
+    border: 1px solid red;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+}

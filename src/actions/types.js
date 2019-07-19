@@ -1,0 +1,4 @@
+export const SEARCH_USER = 'SEARCH_USER';
+export const SEARCH_USER_ERROR = 'SEARCH_USER_ERROR';
+export const GET_USER_REPOS = 'GET_USER_REPOS';
+export const GET_USER_REPOS_ERROR = 'GET_USER_REPOS_ERROR';

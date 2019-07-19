@@ -1,0 +1,42 @@
+.repo {
+  display: flex;
+  border-bottom: 1px solid rgb(212, 212, 212);
+  padding: 20px;
+  flex-direction: column;
+  text-align: left;
+  color: #586069;
+
+  a {
+    color: #0366d6;
+    outline: none;
+  }
+  &__name {
+    text-decoration: none;
+    font-size: 23px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &__desc {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  &__stats {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  }
+  &__stat {
+    display: flex;
+    font-size: 16px;
+  }
+  &__icon {
+    margin-right: 5px;
+  }
+  &__license {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+}
